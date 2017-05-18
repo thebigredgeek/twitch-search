@@ -1,0 +1,24 @@
+{
+  "name": "twitch-search",
+  "version": "1.0.0",
+  "description": "Twitch search web app with plain-jane javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=twitch_search node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebigredgeek/twitch-search.git"
+  },
+  "author": "Andrew E. Rhyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebigredgeek/twitch-search/issues"
+  },
+  "homepage": "https://github.com/thebigredgeek/twitch-search#readme",
+  "dependencies": {
+    "debug": "^2.6.7",
+    "express": "^4.15.3"
+  }
+}

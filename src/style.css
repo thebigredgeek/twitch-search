@@ -1,0 +1,128 @@
+.hidden {
+  display: none !important;
+}
+
+i.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+i.arrow:hover {
+  cursor: pointer;
+}
+
+i.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+i.arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.loaderContainer {
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+
+.loaderContainer img {
+  display: block;
+  margin: auto;
+}
+
+#mainContainer {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#searchContainer {
+  height: 60px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#searchContainer .search {
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 20px;
+}
+
+#searchContainer .search #searchInput {
+  height: 100%;
+}
+
+#searchContainer .search #searchButton {
+  height: 100%;
+}
+
+
+#contentContainer {
+  height: 100%;
+  border: 1px solid black;
+}
+
+#contentContainer #summaryContainer {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+#contentContainer #summaryContainer .summaryItem {
+  display: inline-block;
+  width: 397px;
+}
+
+#contentContainer #summaryContainer .summaryItem .summaryTotal {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#contentContainer #summaryContainer .summaryItem .summaryPagination {
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#contentContainer #resultsContainer .resultRow {
+  height: 150px;
+  padding: 0 10px 10px 10px;
+}
+
+#contentContainer #resultsContainer .resultRow .contentImageWrapper {
+  width: 140px;
+  height: 100%;
+  display: inline-block;
+}
+
+#contentContainer #resultsContainer .resultRow .contentBox {
+  display: inline-block;
+  height: 100%;
+  max-width: 600px;
+  max-height: 140px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#contentContainer #resultsContainer .resultRow .contentBox .titleText {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+}
+
+#contentContainer #resultsContainer .resultRow .contentBox .subtitleText {
+  margin-top: 10px;
+}
+
+#contentContainer #resultsContainer .resultRow .contentBox .description {
+  margin-top: 10px;
+  max-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

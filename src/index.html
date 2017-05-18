@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Twitch Search</title>
+    <meta name="description" content="Search for Twitch">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id='mainWrapper'>
+      <div id='mainContainer'>
+        <div id='searchContainer'>
+          <form id='searchForm' class='search'>
+            <span><input type='text' id='searchInput' /></span>
+            <span><input type='submit' id='searchButton' value='Search'/></span>
+          </form>
+        </div>
+        <div id='contentContainer'>
+          <div class='loaderContainer'>
+            <img src='ajax-loader.gif' alt='Loading'/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
