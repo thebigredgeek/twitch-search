@@ -144,7 +144,6 @@ window.addEventListener('DOMContentLoaded', function () {
     renderLoader();
     searchAndRender();
   });
-  
-  renderLoader();
+
   searchAndRender();
 });
